@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./style.css";
 
 const MainPage = () => {
 
     return (
         <>
-            <div>Which door would you like to go through?</div>
+            <h1>Which door would you like to go through?</h1>
             <ul>
                 <li><Link to="/plainizzy">just plain izzy/azime</Link></li>
                 <li><Link to="/webdeveloper">azime as a web developer</Link></li>
